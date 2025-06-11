@@ -59,7 +59,7 @@ const ShowUsers = () => {
                                 </div>
 
                                 <div className='mt-5 flex justify-around'>
-                                    <button onClick={()=>navigate(`/update`)} className='py-1 px-3 border rounded border-black'>Edit</button>
+                                    <button onClick={()=>navigate(`/update/${userData._id}`)} className='py-1 px-3 border rounded border-black'>Edit</button>
                                     <button onClick={()=> deleteHandler(userData._id)} className='py-1 px-3 border rounded border-black'>Delete</button> 
                                 </div>
                             </div>
